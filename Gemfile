@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'bcrypt', '~> 3.1.7'
 gem 'dotenv-rails'
+gem 'jbuilder'
 gem 'paperclip'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.7'

@@ -47,31 +47,14 @@ GEM
       coderay (>= 1.0.0)
       erubi (>= 1.0.0)
       rack (>= 0.9.0)
-    bindex (0.5.0)
     binding_of_caller (0.8.0)
       debug_inspector (>= 0.0.1)
     builder (3.2.3)
     byebug (10.0.2)
     callsite (0.0.11)
-    capybara (3.0.1)
-      addressable
-      mini_mime (>= 0.1.3)
-      nokogiri (~> 1.8)
-      rack (>= 1.6.0)
-      rack-test (>= 0.6.3)
-      xpath (~> 3.0)
-    childprocess (0.9.0)
-      ffi (~> 1.0, >= 1.0.11)
     chronic (0.10.2)
     climate_control (0.2.0)
     coderay (1.1.2)
-    coffee-rails (4.2.2)
-      coffee-script (>= 2.2.0)
-      railties (>= 4.0.0)
-    coffee-script (2.4.1)
-      coffee-script-source
-      execjs
-    coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
@@ -89,7 +72,6 @@ GEM
       launchy (~> 2.1)
       mail (~> 2.7)
     erubi (1.7.1)
-    execjs (2.7.0)
     factory_bot (4.8.2)
       activesupport (>= 3.0.0)
     factory_bot_rails (4.8.2)
@@ -97,15 +79,9 @@ GEM
       railties (>= 3.0.0)
     faker (1.8.7)
       i18n (>= 0.7)
-    ffaker (2.9.0)
     ffi (1.9.23)
-    font-awesome-rails (4.7.0.3)
-      railties (>= 3.2, < 5.2)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
-    haml (5.0.4)
-      temple (>= 0.8.0)
-      tilt
     hashdiff (0.3.7)
     htmlentities (4.3.4)
     i18n (1.0.0)
@@ -222,23 +198,7 @@ GEM
       rspec-support (~> 3.7.0)
     rspec-support (3.7.1)
     ruby_dep (1.5.0)
-    rubyzip (1.2.1)
     safe_yaml (1.0.4)
-    sass (3.5.6)
-      sass-listen (~> 4.0.0)
-    sass-listen (4.0.0)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
-    sass-rails (5.0.7)
-      railties (>= 4.0.0, < 6)
-      sass (~> 3.1)
-      sprockets (>= 2.8, < 4.0)
-      sprockets-rails (>= 2.0, < 4.0)
-      tilt (>= 1.1, < 3)
-    selenium-webdriver (2.53.4)
-      childprocess (~> 0.5)
-      rubyzip (~> 1.0)
-      websocket (~> 1.0)
     shoulda-matchers (3.1.2)
       activesupport (>= 4.0.0)
     simplecov (0.16.1)
@@ -258,7 +218,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    temple (0.8.0)
     terrapin (0.6.0)
       climate_control (>= 0.0.3, < 1.0)
     therubyracer (0.12.3)
@@ -266,25 +225,13 @@ GEM
       ref
     thor (0.20.0)
     thread_safe (0.3.6)
-    tilt (2.0.8)
-    turbolinks (5.1.0)
-      turbolinks-source (~> 5.1)
-    turbolinks-source (5.1.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    uglifier (4.1.8)
-      execjs (>= 0.3.0, < 3)
     unicode (0.4.4.4)
-    web-console (3.5.1)
-      actionview (>= 5.0)
-      activemodel (>= 5.0)
-      bindex (>= 0.4.0)
-      railties (>= 5.0)
     webmock (2.3.2)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
-    websocket (1.2.5)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.3)
@@ -292,8 +239,6 @@ GEM
       chronic (>= 0.6.3)
     whenever-test (1.0.1)
       whenever
-    xpath (3.0.0)
-      nokogiri (~> 1.8)
     yard (0.9.12)
 
 PLATFORMS
@@ -305,17 +250,12 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   byebug
-  capybara
-  coffee-rails (~> 4.2)
   database_cleaner
   dotenv-rails
   email_spec
   factory_bot_rails
   faker
-  ffaker
-  font-awesome-rails
-  haml
-  jbuilder (~> 2.5)
+  jbuilder
   listen (>= 3.0.5, < 3.2)
   meta_request
   paperclip
@@ -328,16 +268,11 @@ DEPENDENCIES
   rails (~> 5.1.6)
   rspec-instafail
   rspec-rails
-  sass-rails (~> 5.0)
-  selenium-webdriver (= 2.53.4)
   shoulda-matchers
   simplecov
   spring
   spring-watcher-listen (~> 2.0.0)
   therubyracer
-  turbolinks (~> 5)
-  uglifier (>= 1.3.0)
-  web-console (>= 3.3.0)
   webmock (~> 2.0)
   whenever-test
 
