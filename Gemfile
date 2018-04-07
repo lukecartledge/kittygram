@@ -1,21 +1,20 @@
 source 'https://rubygems.org'
 
+gem 'bcrypt', '~> 3.1.7'
 gem 'coffee-rails', '~> 4.2'
+gem 'dotenv-rails'
+gem 'font-awesome-rails'
+gem 'haml'
 gem 'jbuilder', '~> 2.5'
+gem 'paperclip'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.7'
 gem 'rails', '~> 5.1.6'
 gem 'sass-rails', '~> 5.0'
+gem 'simplecov', require: false
 gem 'therubyracer', platforms: :ruby
 gem 'turbolinks', '~> 5'
 gem 'uglifier', '>= 1.3.0'
-gem 'bcrypt', '~> 3.1.7'
-gem 'dotenv-rails'
-gem 'font-awesome-rails'
-gem 'haml'
-gem 'paperclip'
-gem 'simplecov', require: false
-
 
 group :development, :test do
   gem 'byebug'
@@ -47,7 +46,6 @@ group :test do
   gem 'rspec-instafail', require: false
   gem 'selenium-webdriver', '2.53.4'
   gem 'shoulda-matchers'
-  gem 'therubyracer'
   gem 'webmock', '~> 2.0'
   gem 'whenever-test'
 end
